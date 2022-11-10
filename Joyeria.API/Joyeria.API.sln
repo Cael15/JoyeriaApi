@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Joyeria.Data", "Joyeria.Data\Joyeria.Data.csproj", "{B7045BAC-0C4F-4838-AFDF-CF37E0AE4F85}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Joyeria.Services", "Joyeria.Services\Joyeria.Services.csproj", "{A4D8DD93-FAFF-4E0F-A6BD-5FE1D1E6B6CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{812CC3A3-6AD7-4398-941D-83880F977F2D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Joyeria.Dominian", "Joyeria.Dominian\Joyeria.Dominian.csproj", "{502E854E-A431-43C7-997F-C49B2D98F9DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Joyeria.Application", "Joyeria.Application\Joyeria.Application.csproj", "{54812F00-041B-459B-A0E3-B8F1FBA82A9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{7914ABB7-498F-499A-802C-9E7DC812287B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{400C3D27-CD6E-4D1D-B72E-950F0291BEB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoyeriaApi", "JoyeriaApi\JoyeriaApi.csproj", "{5741346F-6A68-4065-9E65-F373BC9A63C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7045BAC-0C4F-4838-AFDF-CF37E0AE4F85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7045BAC-0C4F-4838-AFDF-CF37E0AE4F85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7045BAC-0C4F-4838-AFDF-CF37E0AE4F85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7045BAC-0C4F-4838-AFDF-CF37E0AE4F85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4D8DD93-FAFF-4E0F-A6BD-5FE1D1E6B6CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4D8DD93-FAFF-4E0F-A6BD-5FE1D1E6B6CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4D8DD93-FAFF-4E0F-A6BD-5FE1D1E6B6CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4D8DD93-FAFF-4E0F-A6BD-5FE1D1E6B6CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{502E854E-A431-43C7-997F-C49B2D98F9DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{502E854E-A431-43C7-997F-C49B2D98F9DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{502E854E-A431-43C7-997F-C49B2D98F9DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{502E854E-A431-43C7-997F-C49B2D98F9DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54812F00-041B-459B-A0E3-B8F1FBA82A9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54812F00-041B-459B-A0E3-B8F1FBA82A9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54812F00-041B-459B-A0E3-B8F1FBA82A9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54812F00-041B-459B-A0E3-B8F1FBA82A9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5741346F-6A68-4065-9E65-F373BC9A63C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5741346F-6A68-4065-9E65-F373BC9A63C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5741346F-6A68-4065-9E65-F373BC9A63C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5741346F-6A68-4065-9E65-F373BC9A63C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B7045BAC-0C4F-4838-AFDF-CF37E0AE4F85} = {7914ABB7-498F-499A-802C-9E7DC812287B}
+		{A4D8DD93-FAFF-4E0F-A6BD-5FE1D1E6B6CF} = {7914ABB7-498F-499A-802C-9E7DC812287B}
+		{502E854E-A431-43C7-997F-C49B2D98F9DB} = {812CC3A3-6AD7-4398-941D-83880F977F2D}
+		{54812F00-041B-459B-A0E3-B8F1FBA82A9B} = {812CC3A3-6AD7-4398-941D-83880F977F2D}
+		{5741346F-6A68-4065-9E65-F373BC9A63C5} = {400C3D27-CD6E-4D1D-B72E-950F0291BEB0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0078D60B-C73C-4652-ACCC-7D7109D68B11}
+	EndGlobalSection
+EndGlobal
